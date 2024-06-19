@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style> 
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(5, 35, 105);
+            color:white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(4, 27, 71)
+        }
+        nav ul{
+            display:flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(162, 91, 229);
+            font-size: 1.01rem;
+        }
+        main hr{
+            border: 0;
+            background:rgb(162, 91, 229) ;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        .left{
+            font-size: 1.5rem ;
+        }
+        .first{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin:130px ;
+        }
+        .first > div{
+            width:30%;
+        }
+        .leftSection{
+            font-size: 3rem;
+        }
+        .leftSection.buttons{
+            padding :53px 0;
+        }
+        .leftSection .btn{
+            padding: 12px;
+            background-color:rgb(4, 27, 71) ;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor:pointer;
+        }
+        .rightSection img{
+            width:80%;
+            margin:50px 0;
+            
+        }
+        .purple{
+            color: rgb(162, 91, 229);
+        }
+        .text-gray{
+            color: gray;
+        }
+        #element{
+            color: rgb(162, 91, 229);
+        }
+        .second{
+            max-width:80vw;
+            margin:auto;
+            height: 80vh;
+        }
+        .second h1{
+            font-size: 2rem;
+        }
+        .second .box{
+            background-color: white;
+            width: 110vw;
+            height: 2px;
+            margin: 58px -62PX;
+            display: flex;
+        }
+        .second .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+            
+        }
+        .image-top{
+            width:23px;
+            position: relative;
+            top: -32px;
+            left:-9px;
+
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gold;
+            width: 150px;
+            font-size: 10px;
+
+        }
+        footer{
+            background-color: rgb(4, 27, 71);
+            height:233px;
+        }
+        .footer{
+            display: flex;
+            padding:23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width:223px;
+        }
+        footer.footer-rights{
+            text-align: center;
+            color: gray;
+            padding:12px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Renuka's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href ="/">Home</a></li>
+                    <li><a href ="/">About</a></li>
+                    <li><a href ="/">Services</a></li>
+                    <li><a href ="/">Projects</a></li>
+                    <li><a href ="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftSection">
+                Hi, My name <span class ="purple">Renuka</span> 
+                <div>And I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+
+            </div>
+                
+            <div class="rightSection">
+                <img src="1.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="second">
+            <span class ="text-gray">What I have learnt so far</span>
+            <h1>Skills</h1>
+            <div class="box">
+                 <div class="vertical">
+                    <img class ="image-top" src="html.png" alt="">
+                    <div class="vertical-title">
+                        HTML
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ad dignissimos possimus doloribus perspiciatis assumenda id vitae 
+                        cumque! Deleniti, impedit perspiciatis corporis, illo, dolorum 
+                        doloribus explicabo magnam minima facilis placeat est!
+                    </div>
+                 </div>
+                 <div class="vertical">
+                    <img class ="image-top" src="css.png" alt="">
+                    <div class="vertical-title">
+                        CSS
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ad dignissimos possimus doloribus perspiciatis assumenda id vitae 
+                        cumque! Deleniti, impedit perspiciatis corporis, illo, dolorum 
+                        doloribus explicabo magnam minima facilis placeat est!
+                    </div>
+                 </div>
+                 <div class="vertical">
+                    <img class ="image-top" src="js.png" alt="">
+                    <div class="vertical-title">
+                        JAVA SCRIPT
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ad dignissimos possimus doloribus perspiciatis assumenda id vitae 
+                        cumque! Deleniti, impedit perspiciatis corporis, illo, dolorum 
+                        doloribus explicabo magnam minima facilis placeat est!
+                    </div>
+                 </div>
+                 <div class="vertical">
+                    <img class ="image-top" src="node js.png" alt="">
+                    <div class="vertical-title">
+                        NODE JS
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ad dignissimos possimus doloribus perspiciatis assumenda id vitae 
+                        cumque! Deleniti, impedit perspiciatis corporis, illo, dolorum 
+                        doloribus explicabo magnam minima facilis placeat est!
+                    </div>
+                 </div>
+                 <div class="vertical">
+                    <img class ="image-top" src="angular.png" alt="">
+                    <div class="vertical-title">
+                        ANGULAR JS
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ad dignissimos possimus doloribus perspiciatis assumenda id vitae 
+                        cumque! Deleniti, impedit perspiciatis corporis, illo, dolorum 
+                        doloribus explicabo magnam minima facilis placeat est!
+                    </div>
+                 </div>
+                 <div class="vertical">
+                    <img class ="image-top" src="express.png" alt="">
+                    <div class="vertical-title">
+                        EXPRESS JS
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ad dignissimos possimus doloribus perspiciatis assumenda id vitae 
+                        cumque! Deleniti, impedit perspiciatis corporis, illo, dolorum 
+                        doloribus explicabo magnam minima facilis placeat est!
+                    </div>
+                 </div>
+                 <div class="vertical">
+                    <img class ="image-top" src="mongo db.png" alt="">
+                    <div class="vertical-title">
+                        MONGO DB
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ad dignissimos possimus doloribus perspiciatis assumenda id vitae 
+                        cumque! Deleniti, impedit perspiciatis corporis, illo, dolorum 
+                        doloribus explicabo magnam minima facilis placeat est!
+                    </div>
+                 </div>
+                 <div class="vertical">
+                    <img class ="image-top" src="mysql.png" alt="">
+                    <div class="vertical-title">
+                        MYSQL
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ad dignissimos possimus doloribus perspiciatis assumenda id vitae 
+                        cumque! Deleniti, impedit perspiciatis corporis, illo, dolorum 
+                        doloribus explicabo magnam minima facilis placeat est!
+                    </div>
+                 </div>
+                 
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="f-first">
+                <h3>Stinkens's Developer portfolio</h3>
+            </div>
+            <div class="f-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="f-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="f-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; stinkensPortfolio.com | All rights reserved
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'UI/UX designer','Video Editor','Full stack Developer','AIML Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
